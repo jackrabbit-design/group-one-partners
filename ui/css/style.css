@@ -535,7 +535,7 @@ blockquote span { color: #747474; font-size: 13px; font-weight: 300; line-height
 #err-pg-content p { color: #747474; font-size: 18px; font-weight: 300; line-height: 26px; margin-bottom: 25px; }
 #err-pg-content .search-form ul { font-size: 0; }
 #err-pg-content .search-form ul li { display: inline-block; }
-#err-pg-content .search-form input { width: 349px; }
+#err-pg-content .search-form input { width: 349px; color: #747474; }
 #err-pg-content .search-form .blue-btn { margin-left: 4px; width: 51px; height: 40px; }
 #err-pg-content .search-form .blue-btn:before { content: 'e'; font-family: "group-one"; font-size: 20px; position: relative; }
 
