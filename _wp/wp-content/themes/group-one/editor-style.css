@@ -1,0 +1,9 @@
+/*
+    Document   : editor-style
+    Created on : Jul 21, 2015
+    Description:
+        Provides styles to the Admin WYSIWYG Editor in WordPress
+*/
+
+h3{ border: 0; outline: 0; font-style: normal; font-weight: 400; font-size: 100%; vertical-align: baseline; margin: 0; padding: 0; -webkit-text-size-adjust: 100%; font-family: "OpenSans", Helvetica, sans-serif;font-size: 26px; font-weight: 300; line-height: 36px; color: #6399ae !important;}
+hr { display: block; height: 1px; border-top: 1px solid #000; color: #000; }
