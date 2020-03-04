@@ -4,7 +4,7 @@ get_header();
 the_post();
 ?>
 <ul class="rslides">
-  <?
+  <?php
     if (have_rows('banner_images')){
       while (have_rows('banner_images')) : the_row();
       $image = get_sub_field("image");
@@ -12,7 +12,7 @@ the_post();
         <li><div id="work-detail-banner" style="background-image:url(<?php echo $image['sizes']['main-project-banner']; ?>)">
         <?php echo (get_sub_field('photo_credit_slide') ? '<div class="container"><span class="photo-credit">' . get_sub_field('photo_credit_slide') . '</span></div>' : ''); ?>
     </div></li>
-        <?
+        <?php
       endwhile;
     }
   ?>
@@ -50,7 +50,7 @@ the_post();
                 	<li>
 
 
-  <?
+  <?php
     if (have_rows('content_rows')){
       while (have_rows('content_rows')) : the_row();
       $layout = get_sub_field('row_layout');
@@ -74,7 +74,7 @@ the_post();
                   
               </div>
           </div>
-          <?
+          <?php
           break;
         case 'images':
           ?>
@@ -106,7 +106,7 @@ the_post();
                   </li>
               </ul>
           </div>
-          <?
+          <?php
           break;
         case 'image_text':
           ?>
@@ -127,7 +127,7 @@ the_post();
                   <?php echo get_sub_field('text'); ?>
                 </div>
            </div><!--work-content-->
-          <?
+          <?php
           break;
       }
       ?>

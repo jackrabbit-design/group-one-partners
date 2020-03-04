@@ -41,7 +41,7 @@ the_post();
                         <a href="<?php echo get_permalink($team_member->ID); ?>" class="hover-box">
                         	<div class="inner-wrap">
                             	<h4><?php echo $team_member->post_title?></h4>
-                                <?
+                                <?php
                                 $title_role = get_field('title',$team_member->ID);
                                 ?>
                                   <h5><?php echo @strtoupper($title_role)?></h5>

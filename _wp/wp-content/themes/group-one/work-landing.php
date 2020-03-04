@@ -51,7 +51,7 @@ the_post();
                         </a>
                     </span>
                 <?php }elseif ($project_scope == 'medium'){ ?>
-                  <?
+                  <?php
                   // orientation
                   if (get_field('image_orientation',$project->ID)=='horizontal'){
                     $size_class = "size21"; // horizontal

@@ -16,7 +16,7 @@ $header = $rows[$header_index];
             	<div class="banner-text">
                 	<div class="container">
                     	<div class="container-inner">
-                          <?
+                          <?php 
                           if ($header['header_call_to_action'] != 'none'){
                             if ($header['header_call_to_action']=='internal_link'){
                               $url = $header['header_internal_page'];

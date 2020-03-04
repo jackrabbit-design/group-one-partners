@@ -1,4 +1,4 @@
-<?
+<?php
 get_header();
 the_post();
 ?>
@@ -51,9 +51,9 @@ the_post();
                       <?php while (have_rows('quotes')) : the_row(); ?>
                     	<blockquote>
                         	<p><?php echo get_sub_field('quote'); ?></p>
-                          <? if (get_sub_field('attribution')){ ?>
+                          <?php if (get_sub_field('attribution')){ ?>
                             <span><?php echo strtoupper(get_sub_field('attribution')); ?></span>
-                          <? } ?>
+                          <?php } ?>
                         </blockquote>
                       <?php endwhile; ?>
                     </aside>

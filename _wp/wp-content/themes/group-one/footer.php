@@ -19,10 +19,13 @@
                     	<a href="<?php echo get_field('linkedin_url','options'); ?>" target="_blank"><i class="social-linkedin"></i></a>
                       <?php endif; ?>
                       <?php if (get_field('facebook_url','options')): ?>
-                      <a href="<?php echo get_field('facebook_url','options'); ?>" target="_blank"><i class="social-facebook"></i></a>
+                      	<a href="<?php echo get_field('facebook_url','options'); ?>" target="_blank"><i class="social-facebook"></i></a>
                       <?php endif; ?>
-                        <?php if (get_field('twitter_url','options')): ?>
-                      <a href="<?php echo get_field('twitter_url','options'); ?>" target="_blank"><i class="social-twitter"></i></a>
+                      <?php if (get_field('twitter_url','options')): ?>
+                      	<a href="<?php echo get_field('twitter_url','options'); ?>" target="_blank"><i class="social-twitter"></i></a>
+                      <?php endif; ?>
+                      <?php if (get_field('instagram_url','options')): ?>
+                      	<a href="<?php echo get_field('instagram_url','options'); ?>" target="_blank"><i class="social-instagram"></i></a>
                       <?php endif; ?>
                     </div>
                 </div><!--f-row-one-->

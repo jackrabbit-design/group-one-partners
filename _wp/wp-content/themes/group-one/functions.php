@@ -23,7 +23,7 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link', 10, 0 ); // Display relatio
 remove_action( 'wp_head', 'wp_generator' ); // Display the XHTML generator that is generated on the wp_head hook, WP version
 
 /* Prevent Login Errors for Security */
-add_filter('login_errors',create_function('$a', "return null;"));
+// add_filter('login_errors',create_function('$a', "return null;"));
 
 
 /* ========================================================================= */

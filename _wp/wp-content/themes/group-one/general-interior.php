@@ -24,7 +24,7 @@ the_post();
                   if (have_rows('content_areas')){
                     while (have_rows('content_areas')) : the_row();
                       if (get_sub_field('content_type')=='featured'){
-                        ?><blockquote><?php echo get_sub_field('body_content')?></blockquote><?
+                        ?><blockquote><?php echo get_sub_field('body_content')?></blockquote><?php
                       }else{
                         echo get_sub_field('body_content');
                       }
@@ -61,7 +61,7 @@ the_post();
                           if ( $news->have_posts() ) {
                         ?>
                         <ul id="latest-news">
-                          <?
+                          <?php
                             foreach($news->posts as $article){
                           ?>
                         	<li>
