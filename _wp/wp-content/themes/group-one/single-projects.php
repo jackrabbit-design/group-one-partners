@@ -132,7 +132,7 @@ the_post();
       }
       ?>
 
-        <?
+        <?php
       endwhile;
     }
   ?>
